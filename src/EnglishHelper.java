@@ -6,12 +6,6 @@ import java.util.*;
 
 
 public class EnglishHelper {
-
-    /*
-
-    Main method
-
-     */
     class FileNotInCorrectFormat extends Exception {
         public FileNotInCorrectFormat(String str, int rowPosition, int characterPosition) {
             super(str + " (" + rowPosition + " row, " + characterPosition + " column)");
